@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css-practice-login</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="loginMain">
+    <div id="card">
+        <div id="cardHeader">
+            <div id="cardIcon">
+                <i class="bi bi-person-circle" id="icon"></i>
+            </div>
+        </div>
+
+        <div id="cardBody">
+            <form id="form">
+                <div id="loginTitle">
+                    <h1>Sign-in</h1>
+                </div>
+                <div class="inputGroup">
+                    <label for="input1"><i class="bi bi-envelope-fill"></i></label>
+                    <input type="text" id="input1" placeholder="Email"/>
+                </div>
+                <div class="inputGroup">
+                    <label for="input2"><i class="bi bi-key-fill"></i></label>
+                    <input type="password" id="input2" placeholder="password"/>
+                </div>
+                <div class="checkGroup">
+                    <input type="checkbox" id="check" placeholder="password"/>
+                    <label for="check" class="remember">Remember me</label>
+                    <a href="#" class="link" id="forgot">Forgot Password?</a>
+                </div>
+                <button type="button">Login</button>
+            </form>
+        </div>
+
+        <div id="switchBar">
+            <button id="switchBtn">Sign-up</button>
+        </div>
+
+        <div id="cardFooter" class="collapsible">
+            <form id="form2">
+                <div id="registerTitle">
+                    <h1>Sign-Up</h1>
+                </div>
+                <div class="inputGroup">
+                    <label for="input3"><i class="bi bi-envelope-fill"></i></label>
+                    <input type="text" id="input3" placeholder="Email"/>
+                </div>
+                <div class="inputGroup">
+                    <label for="input4"><i class="bi bi-key-fill"></i></label>
+                    <input type="password" id="input4" placeholder="password"/>
+                </div>
+                <div class="checkGroup">
+                    <input type="checkbox" id="check2" placeholder="password"/>
+                    <label for="check2" class="remember">I agree to the <a href="#" class="link">terms and conditions</a></label>
+                </div>
+                <button type="button">Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
