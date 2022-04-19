@@ -1,0 +1,134 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-btn {
+    width: 25px;
+}
+
+.search-btn {
+    border: 0;
+    border-radius: 2px;
+    background-color: #f8f9fa;
+    padding: 0 16px 0 16px;
+    margin: 12px 4px 12px 4px;
+    height: 36px;
+}
+
+.hover-line {
+    text-decoration: inherit;
+}
+
+.hover-line:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+nav a {
+    margin: 8px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+main section:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+
+main section:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#profile-img {
+    border-radius: 50%;
+    width: 32px;
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+}
+
+#search-bar input {
+    border: none;
+    display: flex;
+    outline: none;
+}
+
+#button-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#region {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 50px;
+    padding: 0 30px 0 30px;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-link {
+    padding: 15px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80vh;
+}
