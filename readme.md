@@ -1,10 +1,10 @@
 ## My CSS and HTML Practice Repo
 
 
-### Patika.dev HTML Semantic Practice (html-practice-1)
-
-https://app.patika.dev/ilkerdurmaz
-
+### Patika.dev Practices: (https://app.patika.dev/ilkerdurmaz)
+- html-practice-1
+- html-practice-2
+- 
 ### CSS practices for developing my css knowledge.
 
 ### 1)Simple login/register form
