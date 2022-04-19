@@ -2,9 +2,8 @@
 
 
 ### Patika.dev Practices: (https://app.patika.dev/ilkerdurmaz)
-- html-practice-1
-- html-practice-2
-- 
+- html-practice-1 (html semantic)
+- html-practice-2 (html semantic)
 ### CSS practices for developing my css knowledge.
 
 ### 1)Simple login/register form
@@ -14,3 +13,7 @@
 ### 2)CSS Grid Layout
 
 ![grid-layout](https://user-images.githubusercontent.com/14932895/163573191-5c7c70c0-0a80-402a-b482-87dd7b2b8962.png)
+
+### 3)Old Google!
+
+![Old-Google!](https://user-images.githubusercontent.com/14932895/164008440-751cd50e-da64-4f33-955b-99aff995871f.png)
