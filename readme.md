@@ -1,10 +1,8 @@
-## My CSS and HTML Practice Repo
+## My CSS / HTML / Javascript Practice Repo
 
+**My Patika.dev profile: (https://app.patika.dev/ilkerdurmaz)**
 
-### Patika.dev Practices: (https://app.patika.dev/ilkerdurmaz)
-- html-practice-1 (html semantic)
-- html-practice-2 (html semantic)
-### CSS practices for developing my css knowledge.
+### CSS practices.
 
 ### 1) Simple login/register form
 
@@ -21,3 +19,5 @@
 ### 4) Google
 
 ![Google](https://user-images.githubusercontent.com/14932895/164046138-8645f5ec-e1a1-4699-b043-6e40c5b5213c.png)
+
+
