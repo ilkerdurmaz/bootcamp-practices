@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>OOP After ES6</title>
+</head>
+<body>
+<main class="container">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title text-center">Movie List</h3>
+            <form id="movie-form">
+                <div class="d-flex">
+                    <input id="title" type="text" class="form-control m-2" placeholder="Movie Title">
+                    <input id="director" type="text" class="form-control m-2" placeholder="Director">
+                </div>
+                <div class="d-flex">
+                    <input id="url" type="text" class="form-control m-2" placeholder="Poster Link">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-primary m-2 w-25">Add</button>
+                </div>
+            </form>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">Movie Poster</th>
+                    <th scope="col">Movie Name</th>
+                    <th scope="col">Movie Director</th>
+                </tr>
+                </thead>
+                <tbody id="movie-list">
+                <!--<tr>
+                    <td><img class="border border-5" src="https://img.fruugo.com/product/6/31/14366316_max.jpg"
+                             width="100px"></td>
+                    <td>My Life</td>
+                    <td>İlker Durmaz</td>
+                </tr>-->
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer d-flex justify-content-center">
+            <button class="btn btn-danger w-25" id="clear-btn">Clear List</button>
+        </div>
+    </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="storage.js"></script>
+<script src="movie.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
